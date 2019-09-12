@@ -19,3 +19,6 @@ Route::get('/smooth-scroll/', function() {
    return view('smooth-scroll');
 });
 
+Route::get('/dropdown-menu/', function() {
+    return view('dropdown-menu');
+});
