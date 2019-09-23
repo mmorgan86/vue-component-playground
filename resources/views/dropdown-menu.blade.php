@@ -19,7 +19,7 @@
 
         <div>
             <div class="bg-gray-400 w-64 h-64 flex items-center justify-center">
-                <dropdown>
+                <dropdown classes="uppercase">
                     <template v-slot:trigger>
                         <button>...</button>
                     </template>

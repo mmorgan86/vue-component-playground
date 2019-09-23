@@ -22,3 +22,11 @@ Route::get('/smooth-scroll/', function() {
 Route::get('/dropdown-menu/', function() {
     return view('dropdown-menu');
 });
+
+Route::get('/conditional-visibility/', function() {
+    return view('conditional-visibility');
+});
+
+Route::get('/modal/', function() {
+    return view('modal');
+});
