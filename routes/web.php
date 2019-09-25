@@ -30,3 +30,11 @@ Route::get('/conditional-visibility/', function() {
 Route::get('/modal/', function() {
     return view('modal');
 });
+
+Route::get('/confirm-button/', function() {
+    return view('confirm-button');
+});
+
+Route::post('confirm-button', function () {
+    return 'form submitted';
+});
